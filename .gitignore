@@ -1,0 +1,52 @@
+# Exclude application source code entirely
+
+/frontend/
+/backend/
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Dependencies and generated files
+
+node_modules/
+dist/
+build/
+coverage/
+.next/
+out/
+
+# Logs and temporary files
+
+*.log
+logs/
+tmp/
+temp/
+secrets/
+n8n/
+package*
+scripts/
+
+# Local databases, backups, and private keys
+
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.backup
+backups/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# OS and editor files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
